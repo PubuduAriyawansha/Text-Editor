@@ -8,14 +8,19 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.SplashFormController">
    <children>
-      <ImageView fitHeight="417.0" fitWidth="742.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ImageView fitHeight="276.0" fitWidth="261.0" layoutX="181.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="69.0" AnchorPane.leftAnchor="181.0" AnchorPane.rightAnchor="158.0" AnchorPane.topAnchor="70.0">
          <image>
-            <Image url="@../assert/images/1.png" />
+            <Image url="@../assert/images/Royalflushxx-Systematrix-Text.256.png" />
          </image>
       </ImageView>
-      <Label layoutX="220.0" layoutY="143.0" prefHeight="52.0" prefWidth="303.0" text="Text Editor" textFill="#b9b4b4">
+      <Label layoutX="159.0" layoutY="14.0" prefHeight="39.0" prefWidth="282.0" text="Text Editor" textFill="#b9b4b4">
          <font>
             <Font name="System Bold" size="43.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLoad" alignment="CENTER" layoutX="101.0" layoutY="342.0" prefHeight="16.0" prefWidth="399.0" style="-fx-font: italic;" text="123" textFill="#f5f5f5">
+         <font>
+            <Font name="System Italic" size="13.0" />
          </font>
       </Label>
    </children>
