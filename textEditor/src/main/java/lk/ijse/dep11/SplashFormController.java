@@ -50,24 +50,6 @@ public class SplashFormController {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-//            URL fxmlFile = getClass().getResource("/view/MainForm.fxml");
-//            FXMLLoader fxmlLoader = new FXMLLoader(fxmlFile);
-//            try {
-//                AnchorPane root = fxmlLoader.load();
-//                Scene scene = new Scene(root);
-//                Stage stage = new Stage();
-//
-//                MainFormController controller = fxmlLoader.getController();
-//                controller.(stage);
-//
-//                stage.setScene(scene);
-//                stage.setTitle("Untitled Document");
-//                stage.show();
-//                stage.centerOnScreen();
-//                lblLoad.getScene().getWindow().hide();
-//            } catch (IOException e) {
-//                throw new RuntimeException(e);
-//            }
         });
         timeline.getKeyFrames().addAll(keyFrame1, keyFrame2, keyFrame3, keyFrame4);
         timeline.playFromStart();

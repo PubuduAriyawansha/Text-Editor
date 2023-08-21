@@ -1,14 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.dep11.AboutFormController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="540.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.AboutFormController">
+   <children>
+      <ImageView fitHeight="533.0" fitWidth="590.0" layoutX="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assert/images/2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="71.0" layoutX="323.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assert/images/Royalflushxx-Systematrix-Text.256.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="294.0" layoutY="100.0" text="Text Editor">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="311.0" layoutY="122.0" text="version 21.0.1">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="192.0" prefHeight="100.0" prefWidth="460.0" text="your versatile and powerful companion for all your text editing needs. Our mission is to provide you with an intuitive and feature-rich platform that enhances your writing experience, whether you're crafting a simple note or working on complex code." wrapText="true" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="94.0" />
+      <Label layoutX="140.0" layoutY="184.0" text="Welcome Back">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="309.0" text="Version" />
+      <Label layoutX="145.0" layoutY="331.0" text="Website" />
+      <Label layoutX="145.0" layoutY="353.0" text="Contact Us" />
+      <Label layoutX="244.0" layoutY="309.0" text="v20.0.1" textFill="#d6ff00" />
+      <Label layoutX="244.0" layoutY="331.0" text="https://texteditor.com" textFill="#ddff01" />
+      <Separator layoutX="142.0" layoutY="328.0" prefHeight="3.0" prefWidth="344.0" />
+      <Separator layoutX="141.0" layoutY="352.0" prefHeight="3.0" prefWidth="344.0" />
+      <Label layoutX="244.0" layoutY="353.0" text="info@dep11.com" textFill="#dee309" />
+      <Label layoutX="307.0" layoutY="416.0" text="POWERED BY">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="42.0" fitWidth="86.0" layoutX="307.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assert/images/4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="217.0" layoutY="474.0" text="All rights reserved, Unauthorized access is prohibited">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="307.0" layoutY="459.0" text="Copyright 2023">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>

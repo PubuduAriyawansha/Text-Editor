@@ -5,8 +5,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.MenuItem;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Background;
+import javafx.scene.paint.Color;
+import javafx.scene.web.HTMLEditor;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
@@ -24,8 +28,10 @@ public class MainFormController {
     public MenuItem itmEditSelectAll;
     public MenuItem itmHelpUserGuide;
     public MenuItem itmHelpAbout;
+    public HTMLEditor txthtml;
 
     public void itmFileNewOnAction(ActionEvent actionEvent) {
+        txthtml.setHtmlText("");
     }
 
     public void itmFileExitOnAction(ActionEvent actionEvent) {
@@ -53,10 +59,13 @@ public class MainFormController {
 
         Stage stage = new Stage();
 
-        stage.initModality(Modality.WINDOW_MODAL);
-        stage.initOwner(root.getScene().getWindow());
+        stage.initModality(Modality.APPLICATION_MODAL);
+        //stage.initOwner(root.getScene().getWindow());
 
         stage.setScene(scene1);
+        stage.initStyle(StageStyle.TRANSPARENT);
+        root1.setBackground(Background.fill(Color.TRANSPARENT));
+        scene1.setFill(Color.TRANSPARENT);
         stage.setTitle("About Us ");
         stage.show();
     }

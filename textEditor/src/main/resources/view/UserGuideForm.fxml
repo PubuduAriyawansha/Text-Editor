@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.dep11.UserGuideFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.UserGuideFormController">
+   <children>
+      <ImageView fitHeight="87.0" fitWidth="91.0" layoutX="23.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="25.0">
+         <image>
+            <Image url="@../assert/images/Royalflushxx-Systematrix-Text.256.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="132.0" layoutY="82.0" text="User Guidance" />
+      <TextArea layoutX="25.0" layoutY="151.0" prefHeight="228.0" prefWidth="550.0" text="User Guidance for Text Editor&#10;&#10;1. Opening the Text Editor:&#10;Launch your text editor application. It could be a built-in editor like Notepad on Windows or TextEdit on macOS, or a more feature-rich third-party editor like Visual Studio Code, Sublime Text, or Atom.&#10;&#10;2. Creating a New Document:&#10;When the editor is open, follow these steps to create a new document:&#10;&#10;    Click on &quot;File&quot; in the menu bar.&#10;    Select &quot;New&quot; or &quot;New Document.&quot;&#10;&#10;3. Opening an Existing Document:&#10;If you want to work on an existing document, use these steps:&#10;&#10;    Click on &quot;File&quot; in the menu bar.&#10;    Select &quot;Open.&quot;&#10;    Browse to the location of the file you want to open and select it.&#10;&#10;4. Writing and Editing:&#10;You can now start typing and editing your document. Here are some basic actions:&#10;&#10;    Typing: Click on the document and start typing to enter text.&#10;    Deleting: Use the Backspace and Delete keys to remove characters.&#10;    Selecting Text: Click and drag to select text, or use the Shift key with arrow keys for selection.&#10;    Cut, Copy, and Paste: Use the Edit menu or keyboard shortcuts (Ctrl+X for cut, Ctrl+C for copy, Ctrl+V for paste on Windows; Cmd+X, Cmd+C, Cmd+V on macOS).&#10;&#10;5. Formatting Text:&#10;Text editors usually offer basic formatting options:&#10;&#10;    Font Styles: Depending on the editor, you might be able to adjust font style (bold, italic) and size.&#10;    Alignment: Align text left, center, or right.&#10;    Lists: Create bullet or numbered lists.&#10;    Indentation: Increase or decrease the indentation of text.&#10;&#10;6. Saving Documents:&#10;Don't forget to save your work! Follow these steps to save your document:&#10;&#10;    Click on &quot;File&quot; in the menu bar.&#10;    Select &quot;Save&quot; or &quot;Save As.&quot;&#10;    Choose a location and enter a file name.&#10;&#10;7. Finding and Replacing:&#10;When working with larger documents, the Find and Replace functions are helpful:&#10;&#10;    Click on &quot;Edit&quot; in the menu bar.&#10;    Select &quot;Find&quot; to search for specific text.&#10;    Select &quot;Replace&quot; to replace one text with another.&#10;&#10;8. Spell Check:&#10;Many text editors provide spell checking:&#10;&#10;    Check if there's a &quot;Spell Check&quot; option in the menu bar.&#10;    If there are misspelled words, the editor will usually highlight them and suggest corrections.&#10;&#10;9. Undo and Redo:&#10;Mistakes happen, but text editors usually have your back:&#10;&#10;    Click on &quot;Edit&quot; in the menu bar.&#10;    Choose &quot;Undo&quot; to reverse your recent action.&#10;    Choose &quot;Redo&quot; to reapply an undone action.&#10;&#10;10. Exiting the Text Editor:&#10;When you're done working on your document, you can exit the text editor:&#10;&#10;    Click on &quot;File&quot; in the menu bar.&#10;    Select &quot;Exit&quot; or &quot;Close.&quot;" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" />
+      <Label layoutX="130.0" layoutY="32.0" text="Text Editor">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="62.0" text="version 21.0.1" />
+   </children>
 </AnchorPane>
