@@ -15,12 +15,6 @@ public class AboutFormController {
         root.setOnMouseDragged(this::rootMouseDraggedAction);
     }
 
-//    public void rootMouseClicked(MouseEvent mouseEvent) {
-//        Xcordinate=mouseEvent.getX();
-//        Ycordinate=mouseEvent.getY();
-//
-//    }
-
     public void rootMouseDraggedAction(MouseEvent mouseEvent) {
         Stage stage = (Stage)root.getScene().getWindow();
         stage.setX(mouseEvent.getScreenX()-Xcordinate);
